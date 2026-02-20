@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.hero {
+  position: relative;
+  padding: 100px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.hero-subtitle {
+  font-size: 22px;
+  color: #F9A826;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.3;
+  color: white;
+  word-break: break-word;
+}
+
+.hero-paragraph {
+  font-size: 18px;
+  margin-bottom: 35px;
+  line-height: 1.6;
+  text-align: justify;
+  color: white;
+  word-break: break-word;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.btn-p {
+  background-color: #F27405;
+  color: white;
+  border: none;
+}
+
+.btn-s {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 16px;
+    text-align: left;
+    overflow-x: hidden;
+  }
+
+  .hero-container {
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 20px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    hyphens: auto;
+    text-align: left;
+  }
+
+  .hero-paragraph {
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    hyphens: auto;
+    text-align: justify;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+

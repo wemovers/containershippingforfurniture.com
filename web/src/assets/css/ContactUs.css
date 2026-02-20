@@ -1,0 +1,27 @@
+.contact_bt {
+  width: 175px;
+}
+
+.contact_bt a {
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  background-color: #F27405;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 0;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.contact_bt a:hover {
+  background-color: #1d1d1d;
+  color: #fcf8f8;
+}
+
+.contact_bt.active a {
+  background-color: #1d1d1d;
+  margin-left: 10px;
+  color: #fcf8f8;
+}

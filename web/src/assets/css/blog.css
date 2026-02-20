@@ -1,0 +1,125 @@
+/*--------------------------------------------------------------
+# Recent Posts Section
+--------------------------------------------------------------*/
+.recent-posts article {
+  background: var(--surface-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.recent-posts .post-img {
+  max-height: 240px;
+  margin: -30px -30px 15px -30px;
+  overflow: hidden;
+}
+.post-img{
+  height: 190px;
+  overflow: hidden;
+}
+.post-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.recent-posts .post-category {
+  font-size: 16px;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.recent-posts .title {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.recent-posts .title a {
+  color: var(--heading-color);
+  transition: 0.3s;
+}
+
+.recent-posts .title a:hover {
+  color: var(--accent-color);
+}
+
+.recent-posts .post-author-img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.recent-posts .post-author {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.recent-posts .post-date {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  margin-bottom: 0;
+}
+/* Slider Styles */
+.slick-slide {
+    padding: 0 15px;
+}
+
+.slick-list {
+    margin: 0 -15px;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: var(--heading-color);
+}
+
+.slick-dots li button:before {
+    color: var(--heading-color);
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--accent-color);
+}
+
+/* Adjust article spacing for slider */
+.recent-posts .slick-slide article {
+    margin: 0 10px;
+}
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #F25252;
+}
+
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  text-align: center;
+
+}
