@@ -11,11 +11,14 @@ import Reviews from '../components/Reviews'
 const HomePage = () => {
   return (
     <div>
+      <Hero/>
       <ImpactInAction/>
       <WhyWeExist/>
       <Services/>
+      <Whatsnext/>
       <Blog/>
       <Reviews/>
+
     </div>
   )
 }
