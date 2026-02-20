@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const Faqs = () => {
-  const primaryColor = "#FCB53B"; // Orange
-  const secondaryColor = "#FFE797"; // Light yellow
-  const tertiaryColor = "#84994"; // Gray-green
+  const primaryColor = "#25671E"; // Orange
+  const secondaryColor = "#F2B50B"; // Light yellow
+  const tertiaryColor = "#48A111"; // Gray-green
   const textColor = "#1a202c"; // Dark text
   const lightTextColor = "#4a5568"; // Light text
 
@@ -166,64 +166,6 @@ const Faqs = () => {
               )}
             </div>
           ))}
-        </div>
-
-        {/* Bottom CTA */}
-        <div
-          style={{
-            textAlign: "center",
-            marginTop: "50px",
-            padding: "40px",
-            backgroundColor: "#FFFFFF",
-            borderRadius: "16px",
-            boxShadow: "0 8px 30px rgba(0,0,0,0.1)",
-            border: `2px solid ${tertiaryColor}33`,
-          }}
-        >
-          <h3
-            style={{
-              color: textColor,
-              marginBottom: "16px",
-              fontSize: "1.5rem",
-              fontWeight: "700",
-            }}
-          >
-            Still have questions?
-          </h3>
-          <p
-            style={{
-              color: lightTextColor,
-              marginBottom: "24px",
-              fontSize: "1rem",
-            }}
-          >
-            Contact our team for personalized assistance with your moving needs
-          </p>
-          <a
-           href="tel:025585181"
-            style={{
-              padding: "14px 32px",
-              backgroundColor: primaryColor,
-              color: "white",
-              border: "none",
-              borderRadius: "12px",
-              fontSize: "1rem",
-              fontWeight: "bold",
-              cursor: "pointer",
-              boxShadow: "0 6px 20px rgba(252, 181, 59, 0.4)",
-              transition: "all 0.3s ease",
-            }}
-            onMouseOver={(e) => {
-              e.target.style.transform = "translateY(-2px)";
-              e.target.style.boxShadow = "0 8px 25px rgba(252, 181, 59, 0.6)";
-            }}
-            onMouseOut={(e) => {
-              e.target.style.transform = "translateY(0)";
-              e.target.style.boxShadow = "0 6px 20px rgba(252, 181, 59, 0.4)";
-            }}
-          >
-            Contact Us Now
-          </a>
         </div>
       </div>
     </section>
