@@ -11,6 +11,9 @@ import Reviews from '../components/Reviews'
 const HomePage = () => {
   return (
     <div>
+      <ImpactInAction/>
+      <WhyWeExist/>
+      <Services/>
       <Blog/>
       <Reviews/>
     </div>

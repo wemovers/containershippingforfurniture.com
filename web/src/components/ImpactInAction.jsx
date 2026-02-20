@@ -1,5 +1,5 @@
 import React from "react";
-import impactImg from "../assets/img/bg5.png"; // Replace with your actual image path
+import impactImg from "../assets/img/c2.png"; // Replace with your actual image path
 
 const ImpactInAction = () => {
   return (
@@ -8,7 +8,7 @@ const ImpactInAction = () => {
       style={{
         position: "relative",
         overflow: "hidden",
-        background: "linear-gradient(135deg, #FFE797 40%, #FCB53B 90%)",
+        background: "linear-gradient(135deg, #FFE797 40%, #F2B50B 90%)",
         padding: "80px 20px",
       }}
     >
@@ -21,7 +21,7 @@ const ImpactInAction = () => {
           width: "250px",
           height: "250px",
           borderRadius: "50%",
-          backgroundColor: "#84994F",
+          backgroundColor: "#48A111",
           opacity: "0.2",
         }}
       ></div>
@@ -42,12 +42,12 @@ const ImpactInAction = () => {
           <h2
             style={{
               fontSize: "2.8rem",
-              color: "#84994F",
+              color: "#48A111",
               marginBottom: "20px",
               fontWeight: "700",
             }}
           >
-            Our <span style={{ color: "#FCB53B" }}>Impact</span> in Action
+            Our <span style={{ color: "#F2B50B" }}>Impact</span> in Action
           </h2>
           <p
             style={{
@@ -95,7 +95,7 @@ const ImpactInAction = () => {
               position: "absolute",
               bottom: "-30px",
               left: "20px",
-              background: "#FCB53B",
+              background: "#F2B50B",
               padding: "20px",
               borderRadius: "16px",
               color: "#fff",
@@ -112,7 +112,7 @@ const ImpactInAction = () => {
               position: "absolute",
               top: "-30px",
               right: "0",
-              background: "#84994F",
+              background: "#48A111",
               padding: "18px 25px",
               borderRadius: "16px",
               color: "#fff",

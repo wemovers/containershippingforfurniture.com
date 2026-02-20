@@ -1,147 +1,203 @@
-import React from "react";
+import React, { useState } from "react";
 import image from "../assets/img/bg1.png";
 
 const WhyWeExist = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
-    <div id="why-us"
+    <section
+      id="why-us"
       style={{
+        background: "#FFFFFF",
+        padding: "120px 24px",
         position: "relative",
         overflow: "hidden",
-        background: "linear-gradient(135deg, #FFE797 60%, #FCB53B 40%)",
-        padding: "80px 60px",
-        display: "flex",
-        flexWrap: "wrap",
-        alignItems: "center",
-        justifyContent: "space-between",
       }}
     >
-      {/* Decorative Circle */}
+      {/* Modern geometric background pattern */}
       <div
         style={{
           position: "absolute",
-          width: "350px",
-          height: "350px",
-          backgroundColor: "#84994F",
-          borderRadius: "50%",
-          top: "-100px",
-          right: "-100px",
-          opacity: "0.1",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: `
+            radial-gradient(circle at 20% 30%, rgba(72, 161, 17, 0.03) 0%, transparent 50%),
+            radial-gradient(circle at 80% 70%, rgba(242, 181, 11, 0.03) 0%, transparent 50%),
+            repeating-linear-gradient(45deg, rgba(0,0,0,0.01) 0px, rgba(0,0,0,0.01) 2px, transparent 2px, transparent 8px)
+          `,
+          zIndex: 0,
         }}
-      ></div>
+      />
 
-      {/* Decorative Diagonal Shape */}
       <div
         style={{
-          position: "absolute",
-          bottom: "-100px",
-          left: "-100px",
-          width: "400px",
-          height: "400px",
-          background: "#FCB53B",
-          transform: "rotate(45deg)",
-          opacity: "0.07",
-        }}
-      ></div>
-
-      {/* Left Content */}
-      <div
-        style={{
-          flex: "1 1 50%",
-          zIndex: 2,
-          color: "#333",
-          paddingRight: "40px",
+          maxWidth: "1000px",
+          margin: "0 auto",
+          position: "relative",
+          zIndex: 1,
         }}
       >
-        <h2
-          style={{
-            color: "#84994F",
-            fontSize: "44px",
-            fontWeight: "800",
-            marginBottom: "25px",
-            letterSpacing: "1px",
-          }}
-        >
-         Why are we here?
-
-        </h2>
-
-        <p
-          style={{
-            fontSize: "18px",
-            lineHeight: "1.8",
-            color: "#333",
-            marginBottom: "25px",
-            textAlign:"justify"
-          }}
-        >
-        As the first reasonably priced international moving company in the United Arab Emirates, we are here to make your life easier by providing hassle-free shipment, storage, and transportation.
-
-        </p>
-
+        {/* Section label - centered */}
         <div
           style={{
-            borderLeft: "5px solid #84994F",
-            paddingLeft: "20px",
-            fontSize: "17px",
-            lineHeight: "1.7",
-            color: "#333",
-            backgroundColor: "rgba(255,255,255,0.5)",
-            borderRadius: "10px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "16px",
+            marginBottom: "24px",
           }}
         >
-      1: We encourage you to relax
-
-<br/>2: We give you comfort
-
-<br/>3: We ship with ease
-
+          <span
+            style={{
+              width: "40px",
+              height: "2px",
+              background: "#48A111",
+            }}
+          />
+          <span
+            style={{
+              color: "#48A111",
+              fontSize: "14px",
+              fontWeight: "600",
+              letterSpacing: "2px",
+              textTransform: "uppercase",
+            }}
+          >
+            Our Purpose
+          </span>
+          <span
+            style={{
+              width: "40px",
+              height: "2px",
+              background: "#48A111",
+            }}
+          />
         </div>
 
-       
-      </div>
-
-      {/* Right Image with Accent Frame */}
-      <div
-        style={{
-          flex: "1 1 45%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          position: "relative",
-          zIndex: 2,
-          marginTop: "40px",
-        }}
-      >
+        {/* Full width content - centered card */}
         <div
           style={{
-            position: "absolute",
-            top: "20px",
-            left: "20px",
-            width: "100%",
-            maxWidth: "480px",
-            height: "100%",
-            border: "4px dashed #84994F",
-            borderRadius: "20px",
-            zIndex: 1,
-            transform: "rotate(-2deg)",
+            display: "flex",
+            justifyContent: "center",
           }}
-        ></div>
+        >
+          {/* Content card - full width */}
+          <div
+            style={{
+              background: "rgba(255, 255, 255, 0.9)",
+              backdropFilter: "blur(10px)",
+              borderRadius: "32px",
+              padding: "64px",
+              boxShadow: "0 30px 60px -20px rgba(0,0,0,0.15)",
+              border: "1px solid rgba(242, 181, 11, 0.1)",
+              width: "100%",
+              textAlign: "center",
+            }}
+          >
+            <h2
+              style={{
+                fontSize: "64px",
+                fontWeight: "700",
+                lineHeight: "1.1",
+                marginBottom: "32px",
+                color: "#1A1A1A",
+              }}
+            >
+              Why are we{" "}
+              <span
+                style={{
+                  color: "#48A111",
+                  position: "relative",
+                  display: "inline-block",
+                }}
+              >
+                here?
+                <span
+                  style={{
+                    position: "absolute",
+                    bottom: "8px",
+                    left: 0,
+                    width: "100%",
+                    height: "12px",
+                    background: "rgba(242, 181, 11, 0.3)",
+                    zIndex: -1,
+                  }}
+                />
+              </span>
+            </h2>
 
-        <img
-          src={image}
-          alt="Why We Exist"
-          style={{
-            width: "100%",
-            maxWidth: "480px",
-            borderRadius: "20px",
-            boxShadow: "0px 8px 25px rgba(0,0,0,0.2)",
-            border: "6px solid #FFE797",
-            position: "relative",
-            zIndex: 2,
-          }}
-        />
+            <p
+              style={{
+                fontSize: "20px",
+                lineHeight: "1.8",
+                color: "#4A4A4A",
+                marginBottom: "56px",
+                maxWidth: "800px",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+            >
+              As the first reasonably priced international moving company in the United Arab Emirates, we are here to make your life easier by providing hassle-free shipment, storage, and transportation.
+            </p>
+
+            {/* Modern list with icons - centered */}
+            <div 
+              style={{ 
+                display: "flex", 
+                flexDirection: "column", 
+                gap: "24px",
+                maxWidth: "600px",
+                margin: "0 auto",
+              }}
+            >
+              {[
+                { num: "01", text: "We encourage you to relax", color: "#48A111" },
+                { num: "02", text: "We give you comfort", color: "#F2B50B" },
+                { num: "03", text: "We ship with ease", color: "#48A111" },
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: "24px",
+                    padding: "12px 0",
+                    borderBottom: index < 2 ? "1px dashed rgba(0,0,0,0.1)" : "none",
+                  }}
+                >
+                  <span
+                    style={{
+                      fontSize: "28px",
+                      fontWeight: "800",
+                      color: item.color,
+                      opacity: "0.5",
+                      minWidth: "50px",
+                      textAlign: "right",
+                    }}
+                  >
+                    {item.num}
+                  </span>
+                  <span
+                    style={{
+                      fontSize: "20px",
+                      color: "#1A1A1A",
+                      fontWeight: "500",
+                      textAlign: "left",
+                      flex: 1,
+                    }}
+                  >
+                    {item.text}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
