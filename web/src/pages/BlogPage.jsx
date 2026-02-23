@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
 
 
-import img from '../assets/img/cheap1.jpg';
+import img from '../assets/img/cargo.jpg';
 
 import img2 from '../assets/img/cf1.jpg';
 
@@ -13,13 +13,13 @@ const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
-      title: 'How to Choose the Right Kite Supplier in the UAE',
-      description: 'This rapid growth of the kite business in the UAE has occurred over the past years due to international trade, the need to change address, the popularity of e-commerce, as well as its strategic location as a global logistics centre',
-       metaTitle:'How to Choose the Right Kite Supplies in the UAE',
-      metaDescription:'Get tips on how to choose the appropriate supplier of kites in the UAE to move, ship, and relocate.',
+      title: 'How to Select the Best International Cargo Movers in the UAE for Your Business',
+      description: 'Need an international cargo mover in the UAE? WEMovers provides affordable shipping services, relocation service and courier services worldwide...',
+       metaTitle:'How to Select the Best International Cargo Movers in the UAE for Your Business',
+      metaDescription:'Need an international cargo mover in the UAE? WEMovers provides affordable shipping services, relocation service and courier services worldwide.',
         thumbnail: img,
-      date: 'January 16,2026',
-      url: '/blog/How-to-choose-right-kite-supplier-uae'
+      date: 'February 23,2026',
+      url: '/blog/best-international-cargo-movers-in-uae'
     },
     {
       id: 2,
