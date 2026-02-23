@@ -15,6 +15,7 @@ const Hero = () => {
     },
     paragraph: {
       color: '#f5f5f5',
+      textAlign:'justify'
     },
     primaryBtn: {
       backgroundColor: '#F2B50B',
@@ -46,16 +47,11 @@ const Hero = () => {
             
             <div className="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center">
               <h1 style={styles.heading} data-aos="fade-up">
-                WeMovers in Dubai
-                <br />
-                Best Moving Company in the UAE
+               Container Shipping of Furniture 
               </h1>
 
               <p style={styles.paragraph} data-aos="fade-up" data-aos-delay="100">
-                WeMovers is a reliable relocation and rehabilitation company that offers reliable and professional services in the United Arab Emirates for all age groups.
-                <br />
-                Problems with running and storage to make your life easier with # 1 Moving Company in Dubai
-              </p>
+               As one of the respected brands among the shipping companies in the UAE, we are concerned with safety, on time, and a professional approach. Special care is taken about every single step, beginning with packing till loading the containers and the coordination on the international level. Some of the most established logistics networks work closely with our group and are in the same league with the best services, such as Evergreen best Shipping Agency in Dubai, that would uphold the convenience of global transport standards.        </p>
 
               <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
                 <Link to="/blog" style={styles.primaryBtn}>

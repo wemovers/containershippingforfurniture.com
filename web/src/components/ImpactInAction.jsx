@@ -47,7 +47,7 @@ const ImpactInAction = () => {
               fontWeight: "700",
             }}
           >
-            Our <span style={{ color: "#F2B50B" }}>Impact</span> in Action
+            Helping homes and businesses in the <span style={{ color: "#F2B50B" }}>UAE</span>
           </h2>
           <p
             style={{
@@ -58,11 +58,18 @@ const ImpactInAction = () => {
               textAlign: "justify",
             }}
           >
-            We offer specialized moving solutions tailored to your requirements
-            in order to make your move go as smoothly as possible. You can be
-            sure that your possessions will be protected during the entire
-            procedure because Cheap International Movers in Abu Dhabi is a
-            licensed and insured moving business.
+            Through our hi-tech container shipping, we have been helping families and businesses transport their goods safely for years. It might be <strong>villas in Abu Dhabi</strong>, apartments in Dubai, and our team of professional people will perform all the shipments.
+          </p>
+          <p
+            style={{
+              color: "#333",
+              fontSize: "1.1rem",
+              lineHeight: "1.8",
+              marginBottom: "40px",
+              textAlign: "justify",
+            }}
+          >
+            Our preference is found in the number of clients who want to use the credible services of <strong>furniture movers in Abu Dhabi or furniture movers in Dubai</strong> because of our systematised style and detail. We know that furniture is valuable and even sentimental, and this is why we treat every one of them in a different way. We are also associated with networks that bear the same names as <strong>shipping companies, Abu Dhabi</strong>, and other partner logistics to ensure easy sea transport.
           </p>
        
         </div>

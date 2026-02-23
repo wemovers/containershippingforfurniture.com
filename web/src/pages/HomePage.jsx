@@ -23,6 +23,7 @@ const HomePage = () => {
       <ImpactInAction/>
       <WhyWeExist/>
       <Services/>
+      <Faqs/>
       <Whatsnext/>
       <Blog/>
       <Reviews/>
