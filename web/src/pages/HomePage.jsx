@@ -8,9 +8,17 @@ import Whatsnext from '../components/WhatsNext'
 import Hero from '../components/Hero'
 import Faqs from '../components/FAQs'
 import Reviews from '../components/Reviews'
+import { Helmet } from 'react-helmet'; 
 const HomePage = () => {
   return (
     <div>
+       <Helmet>
+        <title>Container Shipping for Furniture in the UAE</title>
+        <meta 
+          name="description" 
+          content="Reliable container shipping for furniture in the UAE with secure packing, fast delivery, and affordable rates." 
+        />
+      </Helmet>
       <Hero/>
       <ImpactInAction/>
       <WhyWeExist/>
