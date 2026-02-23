@@ -65,7 +65,7 @@ const WhyWeExist = () => {
               textTransform: "uppercase",
             }}
           >
-            Our Purpose
+            Why are we here
           </span>
           <span
             style={{
@@ -98,14 +98,14 @@ const WhyWeExist = () => {
           >
             <h2
               style={{
-                fontSize: "64px",
+                fontSize: "48px",
                 fontWeight: "700",
                 lineHeight: "1.1",
                 marginBottom: "32px",
                 color: "#1A1A1A",
               }}
             >
-              Why are we{" "}
+              Delivering the Best Shipping Solution UAE {" "}
               <span
                 style={{
                   color: "#48A111",
@@ -113,7 +113,7 @@ const WhyWeExist = () => {
                   display: "inline-block",
                 }}
               >
-                here?
+                Residents Can Rely On
                 <span
                   style={{
                     position: "absolute",
@@ -137,9 +137,10 @@ const WhyWeExist = () => {
                 maxWidth: "800px",
                 marginLeft: "auto",
                 marginRight: "auto",
+                textAlign:"justify"
               }}
             >
-              As the first reasonably priced international moving company in the United Arab Emirates, we are here to make your life easier by providing hassle-free shipment, storage, and transportation.
+              We are not engaged in a complex mission but rather to provide the UAE customers with the most convenient shipping option that will guarantee the safe delivery of their furniture. Furniture is difficult to transport overseas. The concerns are related to customs clearance, package safety, and transit safety. We would like to eliminate the need for clear, streamlined, and organised shipping to relieve that stress. As one of the emerging companies in the list of <strong>furniture moving companies in Abu Dhabi</strong>, we believe in:
             </p>
 
             {/* Modern list with icons - centered */}
@@ -153,9 +154,9 @@ const WhyWeExist = () => {
               }}
             >
               {[
-                { num: "01", text: "We encourage you to relax", color: "#48A111" },
-                { num: "02", text: "We give you comfort", color: "#F2B50B" },
-                { num: "03", text: "We ship with ease", color: "#48A111" },
+                { num: "01", text: "Good pick up to delivery communication.", color: "#48A111" },
+                { num: "02", text: "Shared Container and Full Container.", color: "#F2B50B" },
+                { num: "03", text: "Packed and dry by a professional.", color: "#48A111" },
               ].map((item, index) => (
                 <div
                   key={index}
