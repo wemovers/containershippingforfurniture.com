@@ -177,15 +177,11 @@ const Navbar = () => {
             </HashLink>
           </li>
           <li>
-            <HashLink smooth to="/#mission" style={navItemStyle} onClick={closeMenu}>
+            <HashLink smooth to="/#why-us" style={navItemStyle} onClick={closeMenu}>
               Mission
             </HashLink>
           </li>
-          <li>
-            <HashLink smooth to="/#contact" style={navItemStyle} onClick={closeMenu}>
-              Contact Us
-            </HashLink>
-          </li>
+        
           <li>
             <HashLink smooth to="/#services" style={navItemStyle} onClick={closeMenu}>
               Services

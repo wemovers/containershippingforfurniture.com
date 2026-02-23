@@ -61,6 +61,7 @@ const WhatsNext = () => {
       fontSize: "15px",
       color: "#555",
       lineHeight: "1.6",
+      textAlign:'justify'
     },
     accentBar: {
       position: "absolute",
@@ -73,34 +74,34 @@ const WhatsNext = () => {
   };
 
   return (
-    <section style={styles.section}>
+    <section style={styles.section} id="about">
       <div style={styles.container}>
         
         <h2 style={styles.heading}>What’s Next?</h2>
         <p style={styles.subHeading}>
-          Moving doesn’t have to be stressful. Here’s how WeMovers ensures a smooth and professional relocation experience from start to finish.
-        </p>
+This container shipping of furniture is not as difficult to plan as it may appear. We are a group willing to help you follow all the steps.    </p>
 
         <div style={styles.grid}>
           
           {/* Step 1 */}
           <div style={styles.card}>
             <div style={styles.number}>01</div>
-            <h3 style={styles.cardTitle}>Request a Free Quote</h3>
+            <h3 style={styles.cardTitle}>Provide Your Furniture Detail and Destination
+</h3>
             <p style={styles.cardText}>
-              Contact our relocation experts and share your moving requirements. 
-              We provide a transparent, no-obligation quote tailored to your needs.
-            </p>
+             Inform us on what kind of furniture you want to ship, the amount of the furniture, and the place you would want to deliver the furniture. This will make our team know precisely what you will need to be shipped, and it will organise the most secure way of transporting. Be it the house furnishings or an office, we will see that nothing goes wrong.
+   </p>
             <div style={styles.accentBar}></div>
           </div>
 
           {/* Step 2 */}
           <div style={styles.card}>
             <div style={styles.number}>02</div>
-            <h3 style={styles.cardTitle}>Plan & Schedule</h3>
+            <h3 style={styles.cardTitle}>Select Full or Shared Container Services</h3>
             <p style={styles.cardText}>
-              Our professional team coordinates everything — packing, loading, 
-              transportation, and secure handling of your belongings.
+             
+             Depending on the size of shipment and budget, you can have a full container to yourself or a shared container to obtain a less costly shipment. Our professionals will help you to select the safest and most effective method of shipping your furniture.
+
             </p>
             <div style={styles.accentBar}></div>
           </div>
@@ -108,11 +109,11 @@ const WhatsNext = () => {
           {/* Step 3 */}
           <div style={styles.card}>
             <div style={styles.number}>03</div>
-            <h3 style={styles.cardTitle}>Move with Confidence</h3>
+            <h3 style={styles.cardTitle}>Get a Personalized Shipping Delivery Quotation.
+</h3>
             <p style={styles.cardText}>
-              Sit back and relax while we safely deliver and set up your items 
-              at the new location — on time and damage-free.
-            </p>
+           Once we consider your needs, we offer you a good and precise quote based on your shipment. The only thing that one needs to know is the prices to go without having to be shocked at the other expenses.
+</p>
             <div style={styles.accentBar}></div>
           </div>
 

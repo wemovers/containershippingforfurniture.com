@@ -4,7 +4,7 @@ import '../assets/css/BlogPage.css'
 
 import img from '../assets/img/cargo.jpg';
 
-import img2 from '../assets/img/c1.png';
+import img2 from '../assets/img/cf1.jpg';
 
 
 import { Link } from 'react-router-dom';
@@ -23,13 +23,14 @@ const BlogPage = () => {
     },
     {
       id: 2,
-      title: 'Expert Movers, Packers, and Equipment Suppliers in the UAE',
-      description: 'Expert packers, movers, & equipment suppliers in UAE. Reliable and safe relocation services for homes & businesses. Get a quote now!...',
-      metaTitle:'Good Movers & Packers | Top No.1 Equipment Suppliers in UAE',
-      metaDescription:'Expert packers, movers, & equipment suppliers in UAE. Reliable and safe relocation services for homes & businesses. Get a quote now!',
+      title: 'Key Benefits of Choosing Freight Forwarding Services in Abu Dhabi',
+     
+      description: 'Operating a business in the UAE implies that your supply chain is 24/7. It could be that this is your first encounter with freight forwarding in Abu Dhabi....',    metaTitle:'Good Movers & Packers | Top No.1 Equipment Suppliers in UAE',
+      metaTitle:'Freight Forwarding Services In Abu Dhabi | WeMovers',
+      metaDescription:'Choose WeMovers for trusted freight forwarding services in Abu Dhabi. Fast customs clearance, global routes & expert cargo solutions across the UAE.',
       thumbnail: img2,
-      date: 'January 16, 2025',
-      url: '/blog/top-equipment-suppliers-in-uae'
+      date: 'February 23, 2026',
+      url: '/blog/freight-forwarding-services-in-uae'
     },
   ];
   const titles = blogPosts.map(post => post.metaTitle).join(' | ');
